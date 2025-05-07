@@ -44,7 +44,7 @@ default_admin_email = "admin@example.com"
 default_admin_password = "change_me_immediately"
 
 [completion]
-provider = "r2r"
+provider = "litellm"
 concurrent_request_limit = 64
 
   [completion.generation_config]
