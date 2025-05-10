@@ -1,4 +1,4 @@
-from r2r import Tool, AggregateSearchResult
+from core.base.agent.tools.base import Tool
 
 class EchoTool(Tool):
     """
