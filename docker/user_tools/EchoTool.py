@@ -34,4 +34,4 @@ class EchoTool(Tool):
         context = self.context
         if context and hasattr(context, "search_results_collector"):
             context.search_results_collector.add_aggregate_result(result)
-        return result 
+        return result
