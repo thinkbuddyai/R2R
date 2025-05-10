@@ -1,6 +1,5 @@
 from r2r import Tool, AggregateSearchResult
 
-
 class SecretMethodTool(Tool):
     """
     A user defined tool.
