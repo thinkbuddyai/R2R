@@ -5,7 +5,6 @@ from uuid import UUID
 
 logger = logging.getLogger(__name__)
 
-
 class TbTestTool(Tool):
     """
     A tool to fetch entire documents from the local database.
