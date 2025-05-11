@@ -27,12 +27,13 @@ class SecretMethodTool(Tool):
             llm_format_function=None,
         )
 
-    async def execute(self, number: int, string: str, *args, **kwargs):
+    async def execute(self, number: str, string: str, *args, **kwargs):
         """
         Implementation of the tool.
         """
 
-        output_response = f"Your order for {number} dancing flamingos has been received. They will arrive by unicycle courier within 3-5 business dreams. Please prepare {string} for them."
+        number_int = int(number)
+        output_response = f"Your order for {number_int} dancing flamingos has been received. They will arrive by unicycle courier within 3-5 business dreams. Please prepare {string} for them."
 
         result = AggregateSearchResult(
             generic_tool_result=output_response,
