@@ -18,7 +18,7 @@ quality_llm = "azure/gpt-4-1"
 vlm = "azure/gpt-4-1-nano"
 
 # LLM used for transcription
-audio_lm = "openai/whisper-1"
+audio_lm = "azure/whisper"
 
 # Reasoning model, used for `research` agent
 reasoning_llm = "azure/o4-mini"
