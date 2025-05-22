@@ -1,6 +1,6 @@
 [app]
 # app settings are global available like `r2r_config.agent.app`
-# project_name = "tb_r2r"
+project_name = "tb_r2r"
 default_max_documents_per_user = 10_000
 default_max_chunks_per_user = 10_000_000
 default_max_collections_per_user = 5_000
