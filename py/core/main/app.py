@@ -107,7 +107,7 @@ class R2RApp:
 
         self.app.add_middleware(
             ProjectSchemaMiddleware,
-            default_schema="r2r_default",
+            default_schema="tb_r2r",
         )
 
     async def serve(self, host: str = "0.0.0.0", port: int = 7272):

@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 class ProjectSchemaMiddleware(BaseHTTPMiddleware):
     def __init__(
-        self, app, default_schema: str = "r2r_default", schema_exists_func=None
+        self, app, default_schema: str = "tb_r2r", schema_exists_func=None
     ):
         super().__init__(app)
         self.default_schema = default_schema
