@@ -30,7 +30,7 @@ planning_llm = "azure/o4-mini"
 rag_agent_static_prompt = "static_rag_agent"
 rag_agent_dynamic_prompt = "dynamic_rag_agent"
 # The following tools are available to the `rag` agent
-rag_tools = ["tb_test","web_search", "web_scrape", "search_file_descriptions", "search_file_knowledge"] # can add  "web_search" | "web_scrape"
+rag_tools = ["web_search", "web_scrape", "search_file_descriptions", "search_file_knowledge"] # can add  "web_search" | "web_scrape"
 # The following tools are available to the `research` agent
 research_tools = ["rag", "reasoning", "critique", "python_executor"]
 
