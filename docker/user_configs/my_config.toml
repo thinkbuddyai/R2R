@@ -15,7 +15,7 @@ fast_llm = "azure/gpt-4-1-nano"
 quality_llm = "azure/gpt-4-1"
 
 # LLM used for ingesting visual inputs
-vlm = "azure/gpt-4-1-nano"
+vlm = "azure/gpt-4-1"
 
 # LLM used for transcription
 audio_lm = "azure/whisper"
