@@ -3,7 +3,7 @@ name: Deploy to Azure VM
 on:
   push:
     branches:
-      - main  # Changes to the 'main' branch will trigger this workflow
+      - main  # Changes to the 'main' branch will trigger thi
 
 jobs:
   deploy:
